@@ -42,7 +42,7 @@ export const TREK_DETAILS = {
       "Meals: 2 Breakfast, 1 Lunch, 1 Dinner"
     ],
     exclusions: [
-      "Lunch on Day 1 & Day 2 (Self-sponsored)",
+      "Lunch Day 2 (Self-sponsored)",
       "Travel insurance of any kind",
       "Expenses arising from weather-related delays",
       "Personal toiletries and medication"
@@ -107,7 +107,7 @@ export const TREK_DETAILS = {
       "Trek permissions and entry fees"
     ],
     exclusions: [
-      "Lunch on Day 1 & Day 2 (Self-sponsored)",
+      "Lunch Day 2 (Self-sponsored)",
       "Personal travel or medical insurance",
       "Personal expenses and anything not mentioned in inclusions"
     ],
@@ -171,7 +171,7 @@ export const TREK_DETAILS = {
       "Meals: 2 Breakfast, 1 Lunch, 1 Dinner"
     ],
     exclusions: [
-      "Lunch on Day 1 & Day 2 (Self-sponsored)",
+      "Lunch Day 2 (Self-sponsored)",
       "Travel insurance of any kind",
       "Expenses arising from weather-related delays",
       "Personal toiletries and medication"
@@ -285,11 +285,11 @@ export const TREK_DETAILS = {
         ]
       },
       {
-        day: "Day 2: Mirjan Fort & Yana Caves",
+        day: "Day 2: Honnavara, Murudeshwara Temple & Jog Falls",
         activities: [
           "Breakfast at Homestay.",
-          "Visit the historic Mirjan Fort.",
-          "Explore the Iconic Yana Caves - massive limestone rock formations.",
+          "Visit the historic Honnavara.",
+          "Explore the Murudeshwara Temple & Jog Falls.",
           "Lunch (Self-sponsored) and begin return journey to Bangalore."
         ]
       }
@@ -302,7 +302,7 @@ export const TREK_DETAILS = {
       "Meals: 2 Breakfast, 1 Lunch , 1 Dinner"
     ],
     exclusions: [
-      "Lunch on Day 1 & Day 2",
+      "Lunch Day 2(Self-sponsored)",
       "Water activity charges",
       "Travel, Accidental & Medical insurance",
       "Personal expenses or anything not in inclusions"
@@ -345,7 +345,7 @@ export const TREK_DETAILS = {
         activities: [
           "Reach beach homestay early morning, fresh up & breakfast by 7:30 AM.",
           "9:00 AM - Head to visit UDUPI SRI KRISHNA MATA.",
-          "11:00 AM - Experience KAYAKING(if time permits) in MANGROVES.",
+          "11:00 AM - Experience  kayaking(self sponsor) in MANGROVES.",
           "1:00 PM - Have packed lunch & Enjoy time in MALPE BEACH.",
           "2:30 PM - 3:30 PM - Visit ST.MARYS ISLAND.",
           "5:00 PM - Witness SUNSET at AGUMBE.",

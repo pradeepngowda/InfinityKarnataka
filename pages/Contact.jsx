@@ -394,7 +394,7 @@ const Contact = () => {
     { 
       icon: MapPin, 
       title: 'Visit Us', 
-      lines: ['Heritage Plaza, Bengaluru', 'Karnataka, India'],
+      lines: ['Bagalagunte, Bengaluru', 'Karnataka, India'],
       link: 'https://maps.app.goo.gl/LRdAao5Di3jherRo6?g_st=ic',
       isExternal: true
     },

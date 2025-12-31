@@ -120,7 +120,7 @@ const DestinationsPage = () => {
       bestTime: "September to March",
       duration: "2 Days",
       difficulty: "Challenging",
-      exclusiveAccess: "Includes complementary Beach View."
+      exclusiveAccess: "Includes complementary Beach Views."
     },
     {
       id: 6,
@@ -141,7 +141,7 @@ const DestinationsPage = () => {
       bestTime: "September to March",
       duration: "2 Days",
       difficulty: "Challenging",
-      exclusiveAccess: "Includes complementary KAYAKING(if time permits) in MANGROVES."
+      exclusiveAccess: "Includes complementary kayaking(self sponsor) in MANGROVES."
     },
   ];
 

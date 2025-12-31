@@ -179,7 +179,7 @@ const TrekDetailsModal = ({ trekName, onClose }) => {
             </div>
             <div>
               <p className="text-[10px] font-black uppercase tracking-widest text-zinc-400">Questions?</p>
-              <p className="text-sm font-bold text-zinc-900">+91 96637 13071</p>
+              <p className="text-sm font-bold text-zinc-900">+91 9060797969</p>
             </div>
           </div>
           <button 
@@ -560,7 +560,7 @@ const Home = () => {
       <HeritageDestinations onOpenTrek={(name) => setSelectedTrek(name)} />
         <CuratedExperiences />
       <TrustAndExpertise />
-      <TravelerStories />
+      {/* <TravelerStories /> */}
       
       {/* Trek Itinerary Modal */}
       {selectedTrek && (
