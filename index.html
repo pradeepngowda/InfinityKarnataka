@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/doufbrgld/image/upload/v1766240155/infinity-karnataka-logo_ntzd4h.png">
+
+    <title>Infinity Karnataka | Discover One State, Many Worlds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --accent-gold: #d4af37;
+        --accent-dark-gold: #b8860b;
+        --nature-deep: #1a1a1a;
+        --nature-light: #f8faf7;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--nature-light);
+        color: var(--nature-deep);
+        overflow-x: hidden;
+      }
+      .font-serif {
+        font-family: 'Playfair Display', serif;
+      }
+      
+      .accent-gradient {
+        background: linear-gradient(135deg, #d4af37 0%, #b8860b 100%);
+      }
+
+      .nature-gradient {
+        background: linear-gradient(135deg, #2d4a3e 0%, #4a6741 50%, #1a2e1a 100%);
+      }
+
+      .reveal {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.8s cubic-bezier(0.2, 1, 0.3, 1);
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .glass-card {
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(0, 0, 0, 0.08);
+      }
+
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #f8faf7; }
+      ::-webkit-scrollbar-thumb { background: #d4af37; border-radius: 10px; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "@emailjs/browser": "https://esm.sh/@emailjs/browser@^4.4.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.jsx"></script>
+  </body>
+</html>

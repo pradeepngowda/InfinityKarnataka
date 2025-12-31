@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom variables and base styles */
+:root {
+  --accent-gold: #d4af37;
+  --accent-dark-gold: #b8860b;
+  --nature-deep: #1a1a1a;
+  --nature-light: #f8faf7;
+}
+
+@layer base {
+  body {
+    background-color: var(--nature-light);
+    color: var(--nature-deep);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+
+  .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .accent-gradient {
+    background: linear-gradient(135deg, #d4af37 0%, #b8860b 100%);
+  }
+
+  .nature-gradient {
+    background: linear-gradient(135deg, #2d4a3e 0%, #4a6741 50%, #1a2e1a 100%);
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s cubic-bezier(0.2, 1, 0.3, 1);
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-track { background: var(--nature-light); }
+  ::-webkit-scrollbar-thumb { background: var(--accent-gold); border-radius: 10px; }
+}
