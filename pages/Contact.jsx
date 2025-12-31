@@ -357,9 +357,9 @@ const Contact = () => {
     setStatus('sending');
     setErrorMsg("");
     
-    const SERVICE_ID = "service_dgyopmr"; 
-    const TEMPLATE_ID = "template_morn856";
-    const PUBLIC_KEY = "uXnBAXGFdAcHJOj2Z";
+    const SERVICE_ID = "service_xw6ulks"; 
+    const TEMPLATE_ID = "template_npiiugs";
+    const PUBLIC_KEY = "Yb60XbnL0oq3SsEQW";
 
     const templateParams = {
         to_name: "Admin",
