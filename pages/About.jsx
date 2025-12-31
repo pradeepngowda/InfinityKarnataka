@@ -94,10 +94,7 @@ export default function About() {
             <h1 className="font-serif text-4xl sm:text-7xl text-white mb-8 leading-tight drop-shadow-2xl">
               Crafting Unforgettable <br/> <span className="italic text-[#d4af37]">Karnataka</span> Experiences
             </h1>
-            <p className="text-white/90 text-lg lg:text-xl leading-relaxed mb-10 font-light drop-shadow-lg">
-              For over 15 years, Infinity Karnataka has been your trusted companion in exploring the magnificent
-              heritage, culture, and natural beauty of Karnataka. We don't just plan trips — we create memories.
-            </p>
+            
             <Link
               to="/contact"
               className="inline-flex items-center gap-4 px-10 py-5 bg-[#d4af37] text-white font-black uppercase tracking-widest text-[10px] rounded-lg hover:brightness-110 transition-all shadow-2xl"
@@ -140,17 +137,7 @@ export default function About() {
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
               </div>
-              <div className="absolute -bottom-8 -left-8 bg-white p-8 rounded-2xl shadow-2xl border border-stone-100 hidden md:block">
-                <div className="flex items-center gap-6">
-                  <div className="w-14 h-14 bg-[#d66d51]/10 rounded-full flex items-center justify-center text-[#d66d51]">
-                    <Award className="w-8 h-8" />
-                  </div>
-                  <div>
-                    <div className="font-black text-zinc-900 uppercase tracking-widest text-xs">Award Winning</div>
-                    <div className="text-zinc-400 text-[10px] uppercase font-bold tracking-widest mt-1">Karnataka Tourism 2023</div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -204,9 +191,9 @@ export default function About() {
                   <span className="text-[10px] font-black uppercase tracking-widest">Typical Reporting</span>
                 </div>
                 <p className="text-xs text-zinc-400 leading-relaxed font-light">
-                  Majestic Pickup: 9:00 PM <br/>
-                  Goraguntepalya: 9:30 PM <br/>
-                  Parle-G Toll: 10:00 PM
+                  Majestic Pickup: 7:00 PM <br/>
+                  Goraguntepalya: 8:00 PM <br/>
+                  Parle-G Toll: 9:00 PM
                 </p>
               </div>
             </div>
@@ -256,27 +243,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Achievements */}
-      <section className="py-32 px-4">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16">
-            <span className="text-[#d66d51] font-black tracking-[0.4em] text-xs uppercase block mb-4">Recognition</span>
-            <h2 className="font-serif text-4xl text-zinc-900">Awards & Recognition</h2>
-          </div>
-
-          <div className="space-y-4">
-            {achievements.map((achievement, index) => (
-              <div key={index} className="flex items-center gap-6 p-8 bg-white rounded-2xl border border-stone-100 shadow-sm transition-all hover:border-[#d4af37]/30 hover:shadow-md">
-                <div className="w-12 h-12 bg-stone-50 rounded-full flex items-center justify-center flex-shrink-0 border border-stone-100">
-                  <Check className="w-5 h-5 text-[#d4af37]" />
-                </div>
-                <span className="text-zinc-600 font-bold text-xs uppercase tracking-widest">{achievement}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+     
       {/* CTA Section */}
       <section className="py-24 bg-zinc-900 px-4">
         <div className="max-w-5xl mx-auto text-center">

@@ -1,69 +1,67 @@
 export const TREK_DETAILS = {
   "Kurinjal": {
-    title: "Gokarna & Yana Adventure",
-    subtitle: "Beaches, Caves & Coastal Vibes",
+    title: "Kurinjal Peak Trek",
+    subtitle: "Kudremukh Range Exploration",
     duration: "2 Days / 1 Night",
     pickupPoints: [
-      "MAJESTIC Shanthala Silks, Bangalore (9:00 PM)",
+      "MAJESTIC Shanthala Silks, Bangalore (7:00 PM)",
       "GORAGUNTEPALYA People Tree Hospital, Bangalore",
       "Parle-G Toll, Bangalore"
     ],
     itinerary: [
       {
-        day: "Day 0: The Journey Begins",
-        description: "Overnight journey from BANGALORE at 9:00 PM. 7-8 hours road trip with chill musics to set the nonstop VIBE for the trip."
+        day: "Day 0: Into the Wild",
+        description: "Departure from BANGALORE at 7:00 PM. Get ready for an 8-hour scenic drive to the Western Ghats with introductions and music vibes."
       },
       {
-        day: "Day 1: Explore Gokarna",
+        day: "Day 1: The Kurinjal Summit",
         activities: [
-          "Arrival at Homestay, fresh up & have breakfast.",
-          "Guided to Om Beach, Kudle Beach, and Belekan Beach.",
-          "Visit Fishing Harbour, Heaven Beach, Paradise Beach, Tadri Light house, Half moon beach, and Mystery Cave.",
-          "Water Activities (Optional): Kayaking, Snorkeling, Sea dive.",
-          "Return to Homestay for campfire, dinner (Veg/Non-veg), and group bonding under the stars."
+          "Early morning arrival at Samse/Kudremukh homestay.",
+          "Freshen up and have a traditional Malnad breakfast.",
+          "Begin the Kurinjal main trek through lush shola forests and grasslands.",
+          "Packed lunch with a view of the rolling hills.",
+          "Return to homestay for an evening of campfire, bonding, and dinner."
         ]
       },
       {
-        day: "Day 2: Mirjan Fort & Yana Caves",
+        day: "Day 2: Samse Heritage & Waterfalls",
         activities: [
-          "Breakfast at Homestay.",
-          "Visit the historic Mirjan Fort.",
-          "Explore the Iconic Yana Caves - massive limestone rock formations.",
-          "Lunch (Self-sponsored) and begin return journey to Bangalore."
+          "Post breakfast, visit the sprawling Samse Tea Estates.",
+          "Visit the peaceful Samse Ganesha Temple.",
+          "Take a refreshing dip at Soormane Falls.",
+          "Experience the walk across the Kalasa Hanging Bridge.",
+          "Self-sponsored lunch and return journey to Bangalore."
         ]
       }
     ],
     inclusions: [
-      "Entire travel by Non-AC pushback vehicle",
-      "Travel LEAD throughout the trip",
-      "Accommodation on sharing basis (Dormitories - Separate for M/F)",
-      "All entry tickets as per itinerary",
-      "Meals: Day 1 Breakfast & Dinner, Day 2 Breakfast"
+      "Non-AC pushback vehicle for the entire trip",
+      "Professional Trek/Travel Lead",
+      "Sharing accommodation in homestay dormitories",
+      "Forest department permits and entry fees",
+      "Meals: 2 Breakfast, 1 Lunch, 1 Dinner"
     ],
     exclusions: [
-      "Lunch on Day 1 & Day 2",
-      "Water activity charges",
-      "Travel, Accidental & Medical insurance",
-      "Personal expenses or anything not in inclusions"
+      "Lunch on Day 1 & Day 2 (Self-sponsored)",
+      "Travel insurance of any kind",
+      "Expenses arising from weather-related delays",
+      "Personal toiletries and medication"
     ],
     carryList: [
-      "Shoes & Flip-flops",
-      "Backpack (Avoid trolley bags)",
-      "Powerbank & Torch light",
-      "Adhar card copy",
-      "Cap, Pant/Trousers, Hoodie",
-      "Rain coat & Umbrella (Weather can be moody)",
-      "Personal Medications & Toiletries",
-      "Odomos spray (Stay away from insects)",
-      "Reusable water bottle (No packaged water allowed)"
+      "Trekking shoes with good grip",
+      "Lightweight backpack",
+      "Reusable water bottle",
+      "Raincoat or Poncho (Western Ghats weather is unpredictable)",
+      "Odomos spray for leeches/insects",
+      "Torch with extra batteries",
+      "Xerox of Aadhar card"
     ],
     terms: [
-      "Initial booking amount is non-refundable.",
-      "No seat reservation (First come first serve).",
-      "Sharing accommodation provided (Boys & Girls separate).",
-      "No luxury expected - traversing through untamed nature.",
-      "Zero tolerance towards narcotics/drugs/alcohol during activity.",
-      "Common phone charging sockets available."
+      "Group size max 30 per batch.",
+      "Strict zero-tolerance policy for drugs/alcohol.",
+      "Accommodation is sharing based (Boys & Girls separate).",
+      "Participants must follow the coordinator's instructions at all times.",
+      "Refund policy: 90% (7+ days before), 50% (3-6 days), No Refund (0-3 days)."
     ]
   },
   "Bandaje": {
@@ -71,14 +69,14 @@ export const TREK_DETAILS = {
     subtitle: "Waterfalls & Majestic Viewpoints",
     duration: "2 Days / 1 Night",
     pickupPoints: [
-      "MAJESTIC Shanthala Silks, Bangalore (9:00 PM)",
+      "MAJESTIC Shanthala Silks, Bangalore (7:00 PM)",
       "GORAGUNTEPALYA People Tree Hospital, Bangalore",
       "Parle-G Toll, Bangalore"
     ],
     itinerary: [
       {
         day: "Day 0: Departure",
-        description: "Start the journey from BANGALORE at 9:00 PM. Enjoy intros and music on the road to the mountains."
+        description: "Start the journey from BANGALORE at 7:00 PM. Enjoy intros and music on the road to the mountains."
       },
       {
         day: "Day 1: The Falls & Rani Jhari",
@@ -105,7 +103,7 @@ export const TREK_DETAILS = {
       "Transportation in a Non-AC pushback bus",
       "Experienced Travel Lead",
       "Accommodation in sharing dormitories (M/F separate)",
-      "Day 1 Breakfast & Dinner, Day 2 Breakfast",
+      "2 Breakfast, 1 Lunch, 1 Dinner",
       "Trek permissions and entry fees"
     ],
     exclusions: [
@@ -135,14 +133,14 @@ export const TREK_DETAILS = {
     subtitle: "Kudremukh Range Exploration",
     duration: "2 Days / 1 Night",
     pickupPoints: [
-      "MAJESTIC Shanthala Silks, Bangalore (9:00 PM)",
+      "MAJESTIC Shanthala Silks, Bangalore (7:00 PM)",
       "GORAGUNTEPALYA People Tree Hospital, Bangalore",
       "Parle-G Toll, Bangalore"
     ],
     itinerary: [
       {
         day: "Day 0: Into the Wild",
-        description: "Departure from BANGALORE at 9:00 PM. Get ready for an 8-hour scenic drive to the Western Ghats with introductions and music vibes."
+        description: "Departure from BANGALORE at 7:00 PM. Get ready for an 8-hour scenic drive to the Western Ghats with introductions and music vibes."
       },
       {
         day: "Day 1: The Gangadikal Summit",
@@ -170,7 +168,7 @@ export const TREK_DETAILS = {
       "Professional Trek/Travel Lead",
       "Sharing accommodation in homestay dormitories",
       "Forest department permits and entry fees",
-      "Meals: Day 1 Breakfast & Dinner, Day 2 Breakfast"
+      "Meals: 2 Breakfast, 1 Lunch, 1 Dinner"
     ],
     exclusions: [
       "Lunch on Day 1 & Day 2 (Self-sponsored)",
@@ -200,14 +198,14 @@ export const TREK_DETAILS = {
     subtitle: "Peak Expedition & Sacred Trails",
     duration: "2 Days / 1 Night",
     pickupPoints: [
-      "MAJESTIC Shanthala Silks, Bangalore (9:00 PM)",
+      "MAJESTIC Shanthala Silks, Bangalore (7:00 PM)",
       "GORAGUNTEPALYA People Tree Hospital, Bangalore",
       "Parle-G Toll, Bangalore"
     ],
     itinerary: [
       {
         day: "Day 0: Into the Rainforest",
-        description: "Begin overnight journey from BANGALORE at 9:00 PM. Enjoy a roadtrip with chill music and get to know your fellow trekkers."
+        description: "Begin overnight journey from BANGALORE at 7:00 PM. Enjoy a roadtrip with chill music and get to know your fellow trekkers."
       },
       {
         day: "Day 1: Scaling the Highest Peak",
@@ -236,7 +234,7 @@ export const TREK_DETAILS = {
       "Expert Travel Lead throughout the expedition",
       "Accommodation on sharing basis (Dormitories)",
       "Forest permits and entry tickets",
-      "Meals: Day 1 Breakfast & Dinner, Day 2 Breakfast"
+      "Meals: 2 Breakfast, 1 Lunch, 1 Dinner"
     ],
     exclusions: [
       "Lunch on both days (Self-sponsored)",
@@ -261,5 +259,139 @@ export const TREK_DETAILS = {
       "Last seats in bus might not be recliners in some vehicles.",
       "Sunday lunch during travel will be self-sponsored."
     ]
-  }
+  },
+  "Gokarna": {
+    title: "Gokarna & Yana Adventure",
+    subtitle: "Beaches, Caves & Coastal Vibes",
+    duration: "2 Days / 1 Night",
+    pickupPoints: [
+      "MAJESTIC Shanthala Silks, Bangalore (7:00 PM)",
+      "GORAGUNTEPALYA People Tree Hospital, Bangalore",
+      "Parle-G Toll, Bangalore"
+    ],
+    itinerary: [
+      {
+        day: "Day 0: The Journey Begins",
+        description: "Overnight journey from BANGALORE at 7:00 PM. 7-8 hours road trip with chill musics to set the nonstop VIBE for the trip."
+      },
+      {
+        day: "Day 1: Explore Gokarna",
+        activities: [
+          "Arrival at Homestay, fresh up & have breakfast.",
+          "Guided to Om Beach, Kudle Beach, and Belekan Beach.",
+          "Visit Fishing Harbour, Heaven Beach, Paradise Beach, Tadri Light house, Half moon beach, and Mystery Cave.",
+          "Water Activities (Optional): Kayaking, Snorkeling, Sea dive.",
+          "Return to Homestay for campfire, dinner (Veg/Non-veg), and group bonding under the stars."
+        ]
+      },
+      {
+        day: "Day 2: Mirjan Fort & Yana Caves",
+        activities: [
+          "Breakfast at Homestay.",
+          "Visit the historic Mirjan Fort.",
+          "Explore the Iconic Yana Caves - massive limestone rock formations.",
+          "Lunch (Self-sponsored) and begin return journey to Bangalore."
+        ]
+      }
+    ],
+    inclusions: [
+      "Entire travel by Non-AC pushback vehicle",
+      "Travel LEAD throughout the trip",
+      "Accommodation on sharing basis (Dormitories - Separate for M/F)",
+      "All entry tickets as per itinerary",
+      "Meals: 2 Breakfast, 1 Lunch , 1 Dinner"
+    ],
+    exclusions: [
+      "Lunch on Day 1 & Day 2",
+      "Water activity charges",
+      "Travel, Accidental & Medical insurance",
+      "Personal expenses or anything not in inclusions"
+    ],
+    carryList: [
+      "Shoes & Flip-flops",
+      "Backpack (Avoid trolley bags)",
+      "Powerbank & Torch light",
+      "Adhar card copy",
+      "Cap, Pant/Trousers, Hoodie",
+      "Rain coat & Umbrella (Weather can be moody)",
+      "Personal Medications & Toiletries",
+      "Odomos spray (Stay away from insects)",
+      "Reusable water bottle (No packaged water allowed)"
+    ],
+    terms: [
+      "Initial booking amount is non-refundable.",
+      "No seat reservation (First come first serve).",
+      "Sharing accommodation provided (Boys & Girls separate).",
+      "No luxury expected - traversing through untamed nature.",
+      "Zero tolerance towards narcotics/drugs/alcohol during activity.",
+      "Common phone charging sockets available."
+    ]
+  },
+
+  "Udupi-Agumbe": {
+    title: "Explore Udupi - Agumbe",
+    subtitle: "Beaches & Temple Vibes",
+    duration: "2 Days / 1 Night",
+    price: "₹4,699",
+    bookingAmount: "₹1,999",
+    pickupPoints: [
+      "MAJESTIC Shantala Silks, Bangalore",
+      "Goragunte palya People tree hospital, Bangalore",
+      "Parle-G Toll, Bangalore"
+    ],
+    itinerary: [
+      {
+        day: "Day 1: Coastal Wonders",
+        activities: [
+          "Reach beach homestay early morning, fresh up & breakfast by 7:30 AM.",
+          "9:00 AM - Head to visit UDUPI SRI KRISHNA MATA.",
+          "11:00 AM - Experience KAYAKING(if time permits) in MANGROVES.",
+          "1:00 PM - Have packed lunch & Enjoy time in MALPE BEACH.",
+          "2:30 PM - 3:30 PM - Visit ST.MARYS ISLAND.",
+          "5:00 PM - Witness SUNSET at AGUMBE.",
+          "Travel back to stay for tea/coffee, bonfire, and dinner."
+        ]
+      },
+      {
+        day: "Day 2: Falls & Temples",
+        activities: [
+          "Wake up, have breakfast, and check out by 7:30 AM.",
+          "8:30 AM - Head to KOODLU THEERTHA FALLS.",
+          "10:00 AM - 11:00 AM - Explore VARANGA JAIN TEMPLE.",
+          "12:30 PM - Visit SRINGERI SHARADHAMBHA TEMPLE.",
+          "Lunch (Self-sponsor) and depart back to Bangalore."
+        ]
+      }
+    ],
+    inclusions: [
+      "Accommodation (sharing basis)",
+      "Transportation",
+      "2 Breakfast, 1 Packed Lunch, 1 Dinner (Veg/Non-veg)",
+      "Boating charges",
+      "All entry fees and sightseeing charges",
+      "Parking and Toll charges",
+      "Guide charges"
+    ],
+    exclusions: [
+      "Travel, Accidental & Medical insurance",
+      "Lunch on Day 2 (Self-sponsor)",
+      "Cost arising due to uncontrollable circumstances like weather/landslides",
+      "Anything not mentioned in inclusions"
+    ],
+    carryList: [
+      "Waterproof gear/Raincoat",
+      "Comfortable shoes & flip-flops",
+      "Sunscreen & Sunglasses",
+      "Personal toiletries",
+      "Reusable water bottle",
+      "Avoid plastic, save nature"
+    ],
+    terms: [
+      "Initial booking amount is non-refundable.",
+      "If you cancel before 7 days: 90% refund.",
+      "If you cancel 3-6 days: 50% refund.",
+      "If you cancel 0-3 days: NO REFUND.",
+      "Tickets are transferable to anyone at any point."
+    ]
+  },
 };

@@ -23,11 +23,16 @@ const DestinationsPage = () => {
       image: "https://dwq3yv87q1b43.cloudfront.net/public/blogs/17382423906991-716815907.png",
       imageAlt: "Bandaje Arbi Falls and Rani Jhari trek",
       location: "Belthangady, Dakshina Kannada",
-      description: "Day 1: Bandaje main trek (Rani jhari) complementary. Day 2: Kalaguru tea estate. A perfect blend of challenging heights and serene estates.",
+      description: (
+    <>Day 1: Bandaje main trek (Rani jhari) complementary. 
+    <br />
+    Day 2:  Kelaguru Tea Estate, Poornachandra Tejaswi Prathishtana.
+     </>
+  ), 
       significance: "Features the stunning Bandaje Arbi falls and the breathtaking Rani Jhari viewpoint.",
       price: "₹4,199",
       timeline: "Available Year-round",
-      highlights: ["Bandaje Main Trek", "Rani Jhari Viewpoint", "Kalaguru Tea Estate"],
+      highlights: ["Bandaje Main Trek", "Rani Jhari Viewpoint", "Kelaguru Tea Estate", "Poornachandra Tejaswi Prathishtana"],
       bestTime: "September to March",
       duration: "2 Days",
       difficulty: "Challenging",
@@ -40,11 +45,15 @@ const DestinationsPage = () => {
       image: "https://www.adventurush.com/wp-content/uploads/2023/10/gangadikal-trek-07.jpg",
       imageAlt: "Gangadikal trek Kudremukh",
       location: "Kudremukh Range, Samse",
-      description: "Day 1: Gangadikal main trek. Day 2: Samse estate, Ganesha temple, Soormane falls, and Kalasa hanging bridge.",
+      description: (
+    <>Day 1: Gangadikal main trek. Day <br />
+    Day 2: Samse Tea Estate, Ganesha Temple, Soormane Falls , Kalasa Hanging Bridge,Horanadu Temple.
+     </>
+  ), 
       significance: "One of the most scenic shola forest treks in the Kudremukh National Park range.",
       price: "₹4,199",
       timeline: "Restricted in Peak Monsoon",
-      highlights: ["Gangadikal Peak", "Samse Estate", "Soormane Falls", "Kalasa Hanging Bridge"],
+      highlights: ["Gangadikal Peak", "Samse Tea Estate","Ganesha Temple", "Soormane Falls", "Kalasa Hanging Bridge",  "Horanadu Temple"],
       bestTime: "October to February",
       duration: "2 Days",
       difficulty: "Moderate",
@@ -57,11 +66,15 @@ const DestinationsPage = () => {
       image: "https://bynekaadu.com/wp-content/uploads/2024/09/Overview-of-Kurinjal-Peak-Trek.jpg",
       imageAlt: "Kurinjal trek Kudremukh",
       location: "Kudremukh, Karnataka",
-      description: "Day 1: Kurinjal trek. Day 2: Samse estate, Ganesha temple, Soormane falls, and Kalasa hanging bridge.",
+      description: (
+    <>Day 1: Kurinjal trek. <br />
+     Day 2:Samse Tea Estate, Ganesha Temple, Soormane Falls , Kalasa Hanging Bridge,Horanadu Temple.
+      </>
+  ), 
       significance: "Famous for its misty peaks and diverse flora and fauna of the Western Ghats.",
       price: "₹4,299",
       timeline: "Available in Post-Monsoon",
-      highlights: ["Kurinjal Trek", "Ganesha Temple", "Soormane Falls", "Kalasa Hanging Bridge"],
+      highlights: ["Kurinjal Trek", "Samse Tea Estate","Ganesha Temple", "Soormane Falls", "Kalasa Hanging Bridge",  "Horanadu Temple"],
       bestTime: "September to January",
       duration: "2 Days",
       difficulty: "Moderate",
@@ -74,7 +87,10 @@ const DestinationsPage = () => {
       image: "https://kudremukhnationalpark.org/wp-content/uploads/2024/11/narasimha-parvatha-trek-1-scaled-e1732274149593.webp",
       imageAlt: "Narasimha Parvatha Agumbe",
       location: "Agumbe / Sringeri",
-      description: "Day 1: Narasimha Parvatha trek. Day 2: Koodlu theertha falls, Varanga Jain temple, and Sringeri temple.",
+      description: (
+    <>Day 1: Narasimha Parvatha trek.<br /> 
+    Day 2: Koodlu theertha falls, Varanga Jain temple, and Sringeri temple. </>
+  ), 
       significance: "The highest peak in Agumbe, offering a journey through dense rainforest and ancient spirituality.",
       price: "₹4,399",
       timeline: "Best after Monsoons",
@@ -83,7 +99,50 @@ const DestinationsPage = () => {
       duration: "2 Days",
       difficulty: "Challenging",
       exclusiveAccess: "Rainforest expert guidance and temple heritage tours."
-    }
+    },
+
+    {
+      id: 5,
+      name: "Gokarna",
+      category: "nature",
+      image: "https://res.cloudinary.com/doufbrgld/image/upload/v1767109252/om-beach_tsbwlt.jpg",
+      imageAlt: "Gokarna OM Beach",
+      location: "Gokarna, Karnataka",
+      description: (
+    <> Day 1: OM Beach, Kudle Beach, Belekan Beach & Mirjan Fort.<br />
+    Day 2: Honnavara,  Murudeshwara Temple,  JOG FALLS.
+     </>
+  ), 
+      significance: "Features the stunning Beach and the breathtaking Runrise view.",
+      price: "₹4,799",
+      timeline: "Available Year-round",
+      highlights: ["OM Beach", "Kudle Beach", "Belekan Beach", "Mirjan Fort", "Honnavara", "Murudeshwara Temple", "JOG FALLS"],
+      bestTime: "September to March",
+      duration: "2 Days",
+      difficulty: "Challenging",
+      exclusiveAccess: "Includes complementary Beach View."
+    },
+    {
+      id: 6,
+      name: "Udupi-Agumbe",
+      category: "nature",
+      image: "https://res.cloudinary.com/doufbrgld/image/upload/v1767109252/om-beach_tsbwlt.jpg",
+      imageAlt: "Malpe Beach",
+      location: "Udupi, Karnataka",
+      description: (
+    <>  Day 1: Udupi Sri Krishna Mata, Malpe Beach, St.Marys Island, Sunset at Agumbe.<br />
+    Day 2: Koodlu Theertha Falls,  Varanga Jain Temple, Sringeri Sharadhambha Temple.
+     </>
+  ), 
+      significance: "Features the stunning Beach and the breathtaking Runrise view.",
+      price: "₹4,699",
+      timeline: "Available Year-round",
+      highlights: ["Udupi Sri Krishna Mata", "Malpe Beach", "St.Marys Island", "Sunset at Agumbe", "Koodlu Theertha Falls", "Varanga Jain Temple", "Sringeri Sharadhambha Temple"],
+      bestTime: "September to March",
+      duration: "2 Days",
+      difficulty: "Challenging",
+      exclusiveAccess: "Includes complementary KAYAKING(if time permits) in MANGROVES."
+    },
   ];
 
   useEffect(() => {

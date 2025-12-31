@@ -80,7 +80,7 @@ const DestinationModal = ({ destination, onClose }) => {
                 Highlights
               </h3>
               <div className="flex flex-wrap gap-2">
-                {destination?.highlights?.slice(0, 3).map((h, i) => (
+                {destination?.highlights?.slice(0, 10).map((h, i) => (
                   <span key={i} className="text-[9px] font-black uppercase tracking-widest bg-white border border-stone-200 px-2 py-1 rounded-md text-zinc-600">
                     {h}
                   </span>

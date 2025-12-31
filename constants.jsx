@@ -68,19 +68,20 @@ export const DESTINATIONS = [
 ];
 
 export const GALLERY_IMAGES = [
-  { id: 'g1', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8qjGa_LR_BCqNylNaLOcCfLxxqmT7qT6ECw&s', title: 'Narasimha Parvatha Temple', category: 'Temples' },
-  { id: 'g2', url: 'https://kudremukhnationalpark.org/wp-content/uploads/2024/11/narasimha-parvatha-trek-1-scaled-e1732274149593.webp', title: 'Narasimha Parvatha Trek', category: 'Landscapes' },
-  { id: 'g3', url: 'https://nammatrip.in/uploads/events/145/gallery_img_68eba95f0cbb3.png', title: 'Narasimha Parvatha', category: 'Landscapes' },
-  { id: 'g4', url: 'https://images.prismic.io/indiahike/e7b0c445-dea9-4b42-8d6a-a7af88e032b0_Kurinjal+-+Bhajish+-+August+-+Indiahikes+-+Contribution+%288%29.jpg?auto=compress,format', title: 'Kurinjal', category: 'Landscapes' },
-  { id: 'g5', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrg4tgLuUONBycJdovfv2zrEunuJBfzdgsw&s75', title: 'Kurinjal', category: 'Landscapes' },
-  { id: 'g6', url: 'https://nomadsofindia.com/wp-content/uploads/2022/10/Bandaje-Falls-View-1024x1024.jpg', title: 'Bandaje', category: 'Landscapes' },
-  { id: 'g7', url: 'https://www.adventurush.com/wp-content/uploads/2023/07/Bandaje_Falls_trek_bmc_01.jpg', title: 'Bandaje', category: 'Landscapes' },
-  { id: 'g8', url: 'https://s3.ap-south-1.amazonaws.com/bucket.bengalurutrekkers/blog-images/9e39f54f-278a-49a6-b3b6-d04ee879a2cc.jpg', title: 'Gangadikal l', category: 'Forts' },
-  { id: 'g9', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0256vZgJdOD0_ApubySJNqR4FIY-7eKIk1Q&s', title: 'Gangadikal ', category: 'Landscapes' },
-  { id: 'g10', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7iU1hsh7S7p90c0tchieD41RvQtmUhso-UQ&s', title: 'Gangadikal ', category: 'Landscapes' },
-  { id: 'g11', url: 'https://res.cloudinary.com/doufbrgld/image/upload/v1767109252/Devaramane_wexsge.jpg', title: 'Gangadikal ', category: 'Landscapes' },
-  { id: 'g12', url: 'https://res.cloudinary.com/doufbrgld/image/upload/v1767109252/bandaje_nd9eqo.jpg', title: 'Bandaje ', category: 'Landscapes' },
-  { id: 'g13', url: 'https://res.cloudinary.com/doufbrgld/image/upload/v1767109252/om-beach_tsbwlt.jpg', title: 'Gangadikal ', category: 'Landscapes' },
+  { id: 'g1', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8qjGa_LR_BCqNylNaLOcCfLxxqmT7qT6ECw&s', category: 'Temples' },
+  { id: 'g2', url: 'https://kudremukhnationalpark.org/wp-content/uploads/2024/11/narasimha-parvatha-trek-1-scaled-e1732274149593.webp',  category: 'Landscapes' },
+  { id: 'g3', url: 'https://nammatrip.in/uploads/events/145/gallery_img_68eba95f0cbb3.png', category: 'Landscapes' },
+  { id: 'g4', url: 'https://images.prismic.io/indiahike/e7b0c445-dea9-4b42-8d6a-a7af88e032b0_Kurinjal+-+Bhajish+-+August+-+Indiahikes+-+Contribution+%288%29.jpg?auto=compress,format',  category: 'Landscapes' },
+  { id: 'g5', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlrg4tgLuUONBycJdovfv2zrEunuJBfzdgsw&s75', category: 'Landscapes' },
+  { id: 'g7', url: 'https://www.adventurush.com/wp-content/uploads/2023/07/Bandaje_Falls_trek_bmc_01.jpg', category: 'Landscapes' },
+  { id: 'g8', url: 'https://s3.ap-south-1.amazonaws.com/bucket.bengalurutrekkers/blog-images/9e39f54f-278a-49a6-b3b6-d04ee879a2cc.jpg',  category: 'Forts' },
+  { id: 'g9', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0256vZgJdOD0_ApubySJNqR4FIY-7eKIk1Q&s',  category: 'Landscapes' },
+  { id: 'g10', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7iU1hsh7S7p90c0tchieD41RvQtmUhso-UQ&s',  category: 'Landscapes' },
+  { id: 'g11', url: 'https://res.cloudinary.com/doufbrgld/image/upload/v1767109252/Devaramane_wexsge.jpg',  category: 'Landscapes' },
+  { id: 'g12', url: 'https://res.cloudinary.com/doufbrgld/image/upload/v1767109252/bandaje_nd9eqo.jpg',  category: 'Landscapes' },
+  { id: 'g13', url: 'https://res.cloudinary.com/doufbrgld/image/upload/v1767109252/om-beach_tsbwlt.jpg',  category: 'Landscapes' },
+  { id: 'g14', url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShoCImEHjcLZw186HU7J8jL_a65dd8ILV_EQ&s',  category: 'Landscapes' },
+  { id: 'g15', url: 'https://i0.wp.com/oneday.travel/wp-content/uploads/one-day-udupi-to-kollur-murdeshwar-tour-package-by-cab-header.jpg?fit=1920%2C1280&ssl=1',  category: 'Landscapes' },
   
   
   

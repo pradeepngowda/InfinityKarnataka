@@ -276,7 +276,12 @@ const HeritageDestinations = ({ onOpenTrek }) => {
     { 
       name: "Bandaje", 
       location: "Dakshina Kannada", 
-      description: "Day 1: Bandaje main trek (Rani jhari) complementary. Day 2: Kalaguru tea estate.", 
+      description: (
+    <>
+    Day 1: Bandaje Main Trek (Rani jhari) complementary. <br />
+    Day 2: Kelaguru Tea Estate, Poornachandra Tejaswi Prathishtana.
+       </>
+  ), 
       year: "2 Days", 
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjsM1cqXCzdA46_C5ALu2c1c3PsMdW6iY99g&s", 
       category: "Nature" 
@@ -284,7 +289,12 @@ const HeritageDestinations = ({ onOpenTrek }) => {
     { 
       name: "Gangadikal", 
       location: "Kudremukh Range", 
-      description: "Day 1: Gangadikal main trek. Day 2: Samse estate, Ganesha temple, Soormane falls, Kalasa hanging bridge.", 
+      description: (
+    <>
+      Day 1: Gangadikal Main Trek.<br />
+      Day 2: Samse Tea Estate, Ganesha Temple, Soormane Falls, Kalasa Hanging Bridge, Horanadu Temple.
+    </>
+  ), 
       year: "2 Days", 
       image: "https://backpackersunited.in/_next/image?url=https%3A%2F%2Fbpu-images-v1.s3.eu-north-1.amazonaws.com%2Fuploads%2F1765285269203_testimage--trail_view_3.1_(1)_11zon.webp&w=1920&q=75", 
       category: "Nature" 
@@ -292,7 +302,11 @@ const HeritageDestinations = ({ onOpenTrek }) => {
     { 
       name: "Kurinjal", 
       location: "Kudremukh", 
-      description: "Day 1: Kurinjal trek. Day 2: Samse estate, Ganesha temple, Soormane falls, Kalasa hanging bridge.", 
+      description: (
+    <>Day 1: Kurinjal Trek. <br />
+    Day 2: Samse Tea Estate, Ganesha Temple, Soormane Falls , Kalasa Hanging Bridge,Horanadu Temple.
+       </>
+  ), 
       year: "2 Days", 
       image: "https://kudremukhnationalpark.org/wp-content/uploads/2024/11/kurinjal-trek-scaled.webp", 
       category: "Nature" 
@@ -300,11 +314,46 @@ const HeritageDestinations = ({ onOpenTrek }) => {
     { 
       name: "Narasimha Parvatha", 
       location: "Agumbe / Sringeri", 
-      description: "Day 1: Narasimha Parvatha trek. Day 2: Koodlu theertha falls, Varanga Jain temple, Sringeri temple.", 
+      description: (
+    <>
+    Day 1: Narasimha Parvatha trek.<br />
+    Day 2: Koodlu theertha falls, Varanga Jain temple, Sringeri temple.
+     </>
+  ),  
       year: "2 Days", 
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8qjGa_LR_BCqNylNaLOcCfLxxqmT7qT6ECw&s", 
       category: "Heritage" 
+    },
+
+
+    { 
+      name: "Gokarna", 
+      location: "Gokarna", 
+      description: (
+    <>
+    Day 1: OM Beach, Kudle Beach, Belekan Beach & Mirjan Fort.<br />
+    Day 2: Honnavara,  Murudeshwara Temple,  JOG FALLS.
+     </>
+  ),  
+      year: "2 Days", 
+      image: "https://res.cloudinary.com/doufbrgld/image/upload/v1767109252/om-beach_tsbwlt.jpg", 
+      category: "Heritage" 
+    },
+
+      { 
+      name: "Udupi-Agumbe", 
+      location: "Udupi, Karnataka", 
+      description: (
+    <>
+    Day 1: Udupi Sri Krishna Mata, Malpe Beach, St.Marys Island, Sunset at Agumbe.<br />
+    Day 2: Koodlu Theertha Falls,  Varanga Jain Temple, Sringeri Sharadhambha Temple.
+     </>
+  ),  
+      year: "2 Days", 
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShoCImEHjcLZw186HU7J8jL_a65dd8ILV_EQ&s", 
+      category: "Heritage" 
     }
+
   ];
 
   const filtered = filter === 'All Treks' ? destinations : destinations.filter(d => d.category === filter);
@@ -387,8 +436,7 @@ const TrustAndExpertise = () => {
   const safetyItems = [
     { label: "COVID-19 Safety", desc: "Sanitized vehicles, masks, social distancing", icon: "Shield" },
     { label: "Medical Support", desc: "First-aid trained guides, emergency contacts", icon: "Heart" },
-    { label: "Secure Travel", desc: "Verified drivers, GPS tracking, 24/7 helpline", icon: "Lock" },
-    { label: "Travel Insurance", desc: "Comprehensive coverage recommendations", icon: "FileText" }
+    { label: "Secure Travel", desc: "Verified drivers, GPS tracking, 24/7 helpline", icon: "Lock" }
   ];
 
   return (
@@ -412,17 +460,18 @@ const TrustAndExpertise = () => {
           <div className="text-center mb-12">
             <h3 className="text-3xl font-serif italic text-zinc-900">Your Safety is Our Priority</h3>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-            {safetyItems.map((item, i) => (
-              <div key={i} className="flex flex-col items-center text-center">
-                <div className="mb-4">
-                  <AppIcon name={item.icon} size={20} className="text-emerald-700" />
-                </div>
-                <h4 className="text-xs font-black uppercase tracking-widest text-zinc-900 mb-2">{item.label}</h4>
-                <p className="text-[10px] text-zinc-500 font-medium leading-relaxed max-w-[180px]">{item.desc}</p>
-              </div>
-            ))}
-          </div>
+          <div className="flex flex-wrap justify-center items-start gap-6 md:gap-8">
+  {safetyItems.map((item, i) => (
+    <div key={i} className="flex flex-col items-center text-center">
+      <div className="mb-4">
+        <AppIcon name={item.icon} size={20} className="text-emerald-700" />
+      </div>
+      <h4 className="text-xs font-black uppercase tracking-widest text-zinc-900 mb-2">{item.label}</h4>
+      <p className="text-[10px] text-zinc-500 font-medium leading-relaxed max-w-[180px]">{item.desc}</p>
+    </div>
+  ))}
+</div>
+
         </div>
       </div>
     </section>
@@ -507,8 +556,9 @@ const Home = () => {
   return (
     <div className="bg-white">
       <Hero />
-      <CuratedExperiences />
+      
       <HeritageDestinations onOpenTrek={(name) => setSelectedTrek(name)} />
+        <CuratedExperiences />
       <TrustAndExpertise />
       <TravelerStories />
       
